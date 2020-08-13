@@ -1,0 +1,37 @@
+.Currency {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(80, 79, 78);
+    width: 100vh;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-size: 25px;
+    position: relative;
+}
+
+.rateCurr {
+    background-color: forestgreen;
+    padding-top: 2%;
+    flex: 1;
+}
+
+.convert {
+    flex: 1;
+}
+
+.euroImg {
+    position: relative;
+    left: 15px;
+    padding-top: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.rateImg {
+    padding-top: 30px;
+    width: 30px;
+    height: 30px;
+}
